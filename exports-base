@@ -1,0 +1,10 @@
+module.exports = {
+  name: "teste",
+  aliases: ["testezinho", "southlindo", "testa"],
+  category: "information",
+  description: "comando de teste",
+
+  run: (bot, message, args) => {
+
+  }
+}
