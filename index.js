@@ -21,7 +21,7 @@ fs.readdir("./comandos/", (err, files) => {
   let arquivojs = files.filter(f => f.split(".").pop() === "js");
   arquivojs.forEach((f, i) => {
     let props = require(`./comandos/${f}`);
-    console.log(`Comando ${f} inicou com sucesso`)
+    console.log(`Comando ${f} iniciou com sucesso`)
     bot.commands.set(props.help.name, props);
   });
 });
@@ -55,7 +55,7 @@ bot.on("guildMemberAdd", async member => {
   let channel = bot.channels.cache.get("744230297012273336");
 
   if (guild != member.guild) {
-    return console.log('sai daqui que tu não é do servidor suporte')
+    return console.log('sai daqui que tu não é do servidor suporte, entre no link:')
   } else {
 
     let embed = new Discord.MessageEmbed()
