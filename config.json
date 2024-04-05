@@ -1,4 +1,4 @@
 {
-"prefix": "prefixo para chamar o bot",
+"prefix": "d!",
 "token": "token na api do discord"
 }
