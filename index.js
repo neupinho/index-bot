@@ -35,6 +35,7 @@ bot.on('ready', () => {
     { name: 'Minecraft', type: 'PLAYING' },
     { name: 'Eu sou hacki', type: 'LISTENING' },
     { name: 'videos normais', type: 'WATCHING' },
+    { name: 'uma gameplay ai', type: 'STREAMING'},
     { name: `${bot.guilds.cache.size} servidores, ${bot.users.cache.size} usuários e ${bot.channels.cache.size} canais`, type: 'WATCHING' },
   ];
 
